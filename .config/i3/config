@@ -241,4 +241,4 @@ bindsym $mod+m exec --no-startup-id amixer -c0 sset 'Headphone Mic Boost' 10dB &
 
 exec --no-startup-id sleep 2 && amixer -c0 sset 'Headphone Mic Boost' 10dB && amixer -c0 sset 'Headphone' 100% && amixer -c0 sset 'Master' 50% && amixer -c0 sset 'Headphone' unmute
 
-exec_always --no-startup-id feh --bg-scale /home/ryan/Pictures/bristol-suspension-bridge.jpg
+exec_always --no-startup-id feh --randomize --bg-scale ~/Pictures/*
