@@ -3,3 +3,4 @@ set showmatch
 set ignorecase
 set number
 set relativenumber
+set hlsearch
