@@ -12,6 +12,9 @@ setopt hist_ignore_dups
 # Remove repeated commands first
 setopt hist_expire_dups_first
 
+path=('/home/ryan/bin' $path)
+export path
+
 export EDITOR=vim
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
