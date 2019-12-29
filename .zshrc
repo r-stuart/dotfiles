@@ -3,6 +3,7 @@
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ls='ls --color=auto'
+alias soundhdmi='pactl set-card-profile 0 output:hdmi-stereo'
 
 PS1='[ %(?..%? )%* %n %~ ] $ '
 
