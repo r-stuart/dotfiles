@@ -239,4 +239,4 @@ exec --no-startup-id "picom -b"
 
 exec_always --no-startup-id feh --randomize --bg-scale ~/Pictures/*
 exec --no-startup-id redshift -l 51.3:2.4
-exec --no-startup-id dunst
+#exec --no-startup-id dunst
