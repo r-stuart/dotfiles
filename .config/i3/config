@@ -228,15 +228,17 @@ bar {
 
   client.background       #2B2C2B
 
+# Lock screen
 bindsym $mod+shift+x exec i3lock
 
+# Touchpad config
 set $touchpad 'DLL082A:01 06CB:76AF Touchpad'
 exec --no-startup-id xinput set-prop $touchpad 'libinput Tapping Enabled' 1
 exec --no-startup-id xinput set-prop $touchpad 'libinput Natural Scrolling Enabled' 1
 exec --no-startup-id xinput set-prop $touchpad 'libinput Disable While Typing Enabled' 0
 
+# Compositor
 exec --no-startup-id "picom -b"
 
+# Background
 exec_always --no-startup-id feh --randomize --bg-scale ~/Pictures/*
-#exec --no-startup-id redshift -l 51.3:2.4
-#exec --no-startup-id dunst
