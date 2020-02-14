@@ -17,6 +17,9 @@ new_float normal
 # Hide borders
 hide_edge_borders none
 
+# Gaps
+gaps inner 10
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 # font pango:monospace 8
@@ -204,6 +207,8 @@ set_from_resource $term_color15    color15
 # finds out, if available)
 bar {
     status_command i3status
+    mode dock
+    position top
     colors {
         background #222D31
         statusline #F9FAF9
