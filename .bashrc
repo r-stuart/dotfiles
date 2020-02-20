@@ -57,3 +57,5 @@ man() {
     man "$@"
 }
 
+(cat ~/.cache/wal/sequences &)
+(cat ~/.config/wpg/sequences &)
