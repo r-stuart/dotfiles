@@ -17,3 +17,8 @@ alias vi='vim'
 # git
 #
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+#
+#
+alias screen='xrandr --auto --output eDP-1 --mode 1920x1080 --right-of DP-1'
+
