@@ -18,10 +18,10 @@ new_float normal
 hide_edge_borders none
 
 # Gaps
-gaps inner 10
+# gaps inner 10
 
 # Smart gaps (only gaps if more than on container on the workspace)
-smart_gaps on
+# smart_gaps on
 
 # Smart borders (draw borders only if it's not the only window)
 smart_borders no_gaps
@@ -53,7 +53,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
